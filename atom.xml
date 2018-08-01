@@ -23,17 +23,16 @@
     <published>2018-07-31T02:23:30.000Z</published>
     <updated>2018-07-31T03:02:55.558Z</updated>
     
+    <content type="html"><![CDATA[<p>用html+css实现下拉导航栏代码如下</p><pre><code>&lt;div class=&quot;box&quot;&gt;    &lt;ul class=&quot;menu&quot;&gt;        &lt;li class=&quot;level1&quot;&gt;            &lt;a href=&quot;#none&quot; &gt;衬衫&lt;/a&gt;            &lt;ul class=&quot;level2&quot;&gt;                &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;短袖衬衫&lt;/a&gt;&lt;/li&gt;                &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;长袖衬衫&lt;/a&gt;&lt;/li&gt;                &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;短袖T恤&lt;/a&gt;&lt;/li&gt;                &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;长袖T恤&lt;/a&gt;&lt;/li&gt;            &lt;/ul&gt;        &lt;/li&gt;        &lt;li class=&quot;level1&quot;&gt;            &lt;a href=&quot;#none&quot;&gt;卫衣&lt;/a&gt;            &lt;ul class=&quot;level2&quot;&gt;                &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;开襟卫衣&lt;/a&gt;&lt;/li&gt;                &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;套头卫衣&lt;/a&gt;&lt;/li&gt;                &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;运动卫衣&lt;/a&gt;&lt;/li&gt;                &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;童装卫衣&lt;/a&gt;&lt;/li&gt;            &lt;/ul&gt;        &lt;/li&gt;        &lt;li class=&quot;level1&quot;&gt;            &lt;a href=&quot;#none&quot;&gt;裤子&lt;/a&gt;            &lt;ul class=&quot;level2&quot;&gt;                &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;短裤&lt;/a&gt;&lt;/li&gt;                &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;休闲裤&lt;/a&gt;&lt;/li&gt;                &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;牛仔裤&lt;/a&gt;&lt;/li&gt;                &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;免烫卡其裤&lt;/a&gt;&lt;/li&gt;            &lt;/ul&gt;        &lt;/li&gt;    &lt;/ul&gt;    &lt;/div&gt;</code></pre><p>css 实现代码如下：<br>.menu li a{<br>    text-decoration: none; //去下划线<br>    color: #000;<br>}<br>.menu li{<br>    list-style: none;//去ul，li前的圆点；</p><p>}<br>//设置主菜单样式<br>.level1{<br>    width: 150px;<br>    min-height: 40px;//最小高度，以实现扩展<br>    line-height: 40px;//高度居中<br>    border: 1px solid #000000;<br>    background: #d8d8d8;</p><p>}<br>//实现ul,li左对齐<br>.level1 .level2{<br>    padding: 0px;<br>    margin: 0px;<br>}<br>//设置下拉菜单样式<br>.level2 li{<br>    display: none;//不可见<br>    width: 150px;<br>    height: 30px;<br>    padding: 5px;<br>    background: #fff;</p><p>}<br>//鼠标滑动到主菜单颜色改变<br>.level1:hover{<br>    background:#999 ;<br>}<br>//鼠标滑动到主菜单，下拉菜单可见<br>.level1:hover .level2 li{<br>    display: block;</p><p>}<br>//鼠标滑动到下拉菜单，颜色改变<br>.level2 a:hover{<br>    background: #999;<br>}<br>实现效果如图：<img src="/2018/07/31/css实现导航栏/效果图.png" alt="导航栏"></p>]]></content>
+    
     <summary type="html">
     
       
       
-        
-        
-          &lt;p&gt;用html+css实现下拉导航栏代码如下&lt;/p&gt;
+        &lt;p&gt;用html+css实现下拉导航栏代码如下&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt;
     &amp;lt;ul class=&amp;quot;menu&amp;quot;&amp;gt;
-        &amp;lt;li
-        
+        &amp;lt;li class=&amp;quot;le
       
     
     </summary>
@@ -48,14 +47,13 @@
     <published>2018-07-27T07:23:06.000Z</published>
     <updated>2018-07-27T07:28:26.958Z</updated>
     
+    <content type="html"><![CDATA[<p>周末两天再重新看一遍html+css+js的基础知识，做好笔记，重要代码写在博客里，不要让我的博客浪费！<br>写博客步骤：<br>1、打开git bash<br>2、输出hexo new ‘文章名’<br>3、hexo clean<br>4、hexo generate<br>5、hexo deploy</p>]]></content>
+    
     <summary type="html">
     
       
       
-        
-        
-          &lt;p&gt;周末两天再重新看一遍html+css+js的基础知识，做好笔记，重要代码写在博客里，不要让我的博客浪费！&lt;br&gt;写博客步骤：&lt;br&gt;1、打开git bash&lt;br&gt;2、输出hexo new ‘文章名’&lt;br&gt;3、hexo clean&lt;br&gt;4、hexo
-        
+        &lt;p&gt;周末两天再重新看一遍html+css+js的基础知识，做好笔记，重要代码写在博客里，不要让我的博客浪费！&lt;br&gt;写博客步骤：&lt;br&gt;1、打开git bash&lt;br&gt;2、输出hexo new ‘文章名’&lt;br&gt;3、hexo clean&lt;br&gt;4、hexo generate&lt;b
       
     
     </summary>
@@ -70,14 +68,13 @@
     <published>2018-06-24T01:15:30.445Z</published>
     <updated>2018-06-24T01:15:30.445Z</updated>
     
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
     <summary type="html">
     
       
       
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
       
     
     </summary>
