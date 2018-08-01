@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[如何把本地项目上传到github（最简单的方法）]]></title>
+    <url>%2F2018%2F08%2F01%2F%E5%A6%82%E4%BD%95%E6%8A%8A%E6%9C%AC%E5%9C%B0%E9%A1%B9%E7%9B%AE%E4%B8%8A%E4%BC%A0%E5%88%B0github%EF%BC%88%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%89%2F</url>
+    <content type="text"><![CDATA[1、在github上 new repository2、点击Clone or dowload会出现一个地址，copy这个地址备用。3、在本地项目上点击GIT BASH HERE4、输入 git clone + （第二条备用的地址）5、本地会多出一个文件夹（文件名和github项目相同，把你要上传的项目文件复制到该文件夹下。6、cd 文件夹名7、依次输入以下命令 git add . （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来） git commit -m “提交信息” （注：“提交信息”里面换成你需要，如“first commit”） git push -u origin master （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码） 参考链接：https://www.cnblogs.com/cxk1995/p/5800196.html]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[jQuery选择器]]></title>
+    <url>%2F2018%2F08%2F01%2FjQuery%E9%80%89%E6%8B%A9%E5%99%A8%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[css实现导航栏]]></title>
     <url>%2F2018%2F07%2F31%2Fcss%E5%AE%9E%E7%8E%B0%E5%AF%BC%E8%88%AA%E6%A0%8F%2F</url>
     <content type="text"><![CDATA[用html+css实现下拉导航栏代码如下 &lt;div class=&quot;box&quot;&gt; &lt;ul class=&quot;menu&quot;&gt; &lt;li class=&quot;level1&quot;&gt; &lt;a href=&quot;#none&quot; &gt;衬衫&lt;/a&gt; &lt;ul class=&quot;level2&quot;&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;短袖衬衫&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;长袖衬衫&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;短袖T恤&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;长袖T恤&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li class=&quot;level1&quot;&gt; &lt;a href=&quot;#none&quot;&gt;卫衣&lt;/a&gt; &lt;ul class=&quot;level2&quot;&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;开襟卫衣&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;套头卫衣&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;运动卫衣&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;童装卫衣&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li class=&quot;level1&quot;&gt; &lt;a href=&quot;#none&quot;&gt;裤子&lt;/a&gt; &lt;ul class=&quot;level2&quot;&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;短裤&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;休闲裤&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;牛仔裤&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;免烫卡其裤&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; css 实现代码如下：.menu li a{ text-decoration: none; //去下划线 color: #000;}.menu li{ list-style: none;//去ul，li前的圆点； }//设置主菜单样式.level1{ width: 150px; min-height: 40px;//最小高度，以实现扩展 line-height: 40px;//高度居中 border: 1px solid #000000; background: #d8d8d8; }//实现ul,li左对齐.level1 .level2{ padding: 0px; margin: 0px;}//设置下拉菜单样式.level2 li{ display: none;//不可见 width: 150px; height: 30px; padding: 5px; background: #fff; }//鼠标滑动到主菜单颜色改变.level1:hover{ background:#999 ;}//鼠标滑动到主菜单，下拉菜单可见.level1:hover .level2 li{ display: block; }//鼠标滑动到下拉菜单，颜色改变.level2 a:hover{ background: #999;}实现效果如图：]]></content>
