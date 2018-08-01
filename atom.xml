@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fallingflower.github.io/"/>
-  <updated>2018-08-01T03:29:31.229Z</updated>
+  <updated>2018-08-01T04:14:57.648Z</updated>
   <id>http://fallingflower.github.io/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://fallingflower.github.io/2018/08/01/test/"/>
+    <id>http://fallingflower.github.io/2018/08/01/test/</id>
+    <published>2018-08-01T04:14:20.000Z</published>
+    <updated>2018-08-01T04:14:57.648Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="电影评论" scheme="http://fallingflower.github.io/categories/%E7%94%B5%E5%BD%B1%E8%AF%84%E8%AE%BA/"/>
+    
+    
+      <category term="test" scheme="http://fallingflower.github.io/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>css实现导航栏</title>
