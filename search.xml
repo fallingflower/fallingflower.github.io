@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[css实现导航栏]]></title>
+    <url>%2F2018%2F07%2F31%2Fcss%E5%AE%9E%E7%8E%B0%E5%AF%BC%E8%88%AA%E6%A0%8F%2F</url>
+    <content type="text"><![CDATA[用html+css实现下拉导航栏代码如下 &lt;div class=&quot;box&quot;&gt; &lt;ul class=&quot;menu&quot;&gt; &lt;li class=&quot;level1&quot;&gt; &lt;a href=&quot;#none&quot; &gt;衬衫&lt;/a&gt; &lt;ul class=&quot;level2&quot;&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;短袖衬衫&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;长袖衬衫&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;短袖T恤&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;长袖T恤&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li class=&quot;level1&quot;&gt; &lt;a href=&quot;#none&quot;&gt;卫衣&lt;/a&gt; &lt;ul class=&quot;level2&quot;&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;开襟卫衣&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;套头卫衣&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;运动卫衣&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;童装卫衣&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li class=&quot;level1&quot;&gt; &lt;a href=&quot;#none&quot;&gt;裤子&lt;/a&gt; &lt;ul class=&quot;level2&quot;&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;短裤&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;休闲裤&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;牛仔裤&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#none&quot;&gt;免烫卡其裤&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;/div&gt; css 实现代码如下：.menu li a{ text-decoration: none; //去下划线 color: #000;}.menu li{ list-style: none;//去ul，li前的圆点； }//设置主菜单样式.level1{ width: 150px; min-height: 40px;//最小高度，以实现扩展 line-height: 40px;//高度居中 border: 1px solid #000000; background: #d8d8d8; }//实现ul,li左对齐.level1 .level2{ padding: 0px; margin: 0px;}//设置下拉菜单样式.level2 li{ display: none;//不可见 width: 150px; height: 30px; padding: 5px; background: #fff; }//鼠标滑动到主菜单颜色改变.level1:hover{ background:#999 ;}//鼠标滑动到主菜单，下拉菜单可见.level1:hover .level2 li{ display: block; }//鼠标滑动到下拉菜单，颜色改变.level2 a:hover{ background: #999;}实现效果如图：]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[the first]]></title>
+    <url>%2F2018%2F07%2F27%2Fthe-first%2F</url>
+    <content type="text"><![CDATA[周末两天再重新看一遍html+css+js的基础知识，做好笔记，重要代码写在博客里，不要让我的博客浪费！写博客步骤：1、打开git bash2、输出hexo new ‘文章名’3、hexo clean4、hexo generate5、hexo deploy]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F06%2F24%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
