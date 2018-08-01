@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>LZ成长史</title>
   
-  
+  <subtitle>学之 用之</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fallingflower.github.io/"/>
