@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fallingflower.github.io/"/>
-  <updated>2018-08-01T03:26:08.332Z</updated>
+  <updated>2018-08-01T03:29:31.229Z</updated>
   <id>http://fallingflower.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://fallingflower.github.io/2018/07/31/css%E5%AE%9E%E7%8E%B0%E5%AF%BC%E8%88%AA%E6%A0%8F/"/>
     <id>http://fallingflower.github.io/2018/07/31/css实现导航栏/</id>
     <published>2018-07-31T02:23:30.000Z</published>
-    <updated>2018-08-01T03:26:08.332Z</updated>
+    <updated>2018-08-01T03:29:31.229Z</updated>
     
     <summary type="html">
     
@@ -29,11 +29,16 @@
       
         
         
-          &lt;p&gt;用html+css实现下拉导航栏代码如下&lt;br&gt;        &lt;div class=&quot;box&quot;&gt;&lt;br&gt;            &lt;ul class=&quot;menu&quot;&gt;&lt;br&gt;                &lt;li class=&quot;level1&quot;&gt;&lt;br&gt;           
+          &lt;p&gt;用html+css实现下拉导航栏代码如下&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;box&amp;quot;&amp;gt;
+    &amp;lt;ul class=&amp;quot;menu&amp;quot;&amp;gt;
+        &amp;lt;li
         
       
     
     </summary>
+    
+      <category term="css" scheme="http://fallingflower.github.io/categories/css/"/>
     
     
   </entry>
@@ -43,7 +48,7 @@
     <link href="http://fallingflower.github.io/2018/07/27/the-first/"/>
     <id>http://fallingflower.github.io/2018/07/27/the-first/</id>
     <published>2018-07-27T07:23:06.000Z</published>
-    <updated>2018-08-01T03:26:17.392Z</updated>
+    <updated>2018-08-01T03:29:46.657Z</updated>
     
     <summary type="html">
     
@@ -56,6 +61,8 @@
       
     
     </summary>
+    
+      <category term="随笔" scheme="http://fallingflower.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
   </entry>
