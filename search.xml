@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[jQuery中的DOM操作（jQuery学习第二篇）]]></title>
     <url>%2F2018%2F08%2F02%2FjQuery%E4%B8%AD%E7%9A%84DOM%E6%93%8D%E4%BD%9C%EF%BC%88jQuery%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%BA%8C%E7%AF%87%EF%BC%89%2F</url>
-    <content type="text"><![CDATA[html &lt;!doctype html&gt; HTML-DOM 查找节点 查找元素节点 参考上一篇 查找属性节点 attr()方法，参数为要查询的属性的名字； 创建节点&gt; $(html)方法：var $li_1=$(“文本“)//创建一个li元素，并为其添加title属性，内容为文本 插入节点 append():向每个匹配元素内部追加内容； prepend():向每个匹配的元素内部前置内容； after():在每个匹配的元素之后插入内容； before():在每个匹配的元素之前插入内容 删除节点 remove()方法，删除后该节点的所有后代节点将同时被删除，该方法删除后，还是可以继续使用的。 同时可以传递参数有选择性地删除元素。 detach()方法：与remove()方法不同的是被删除的元素所有绑定的事件，附加的数据等都会保留下来。 empty()方法：不是删除节点，而是清空节点。 复制节点 clone()方法:当传递参数true时，复制元素的同时复制元素中所绑定的事件，因此该元素的副本也同样具有复制功能。 替换节点 replaceWith()方法：$(“替换目标”).replaceWith(“替换内容”)]]></content>
+    <content type="text"><![CDATA[html &lt;!doctype html&gt; HTML-DOM 查找节点 参考上一篇 查找属性节点 attr()方法，参数为要查询的属性的名字； 创建节点&gt; $(html)方法：var $li_1=$(“文本“)//创建一个li元素，并为其添加title属性，内容为文本 插入节点 append():向每个匹配元素内部追加内容； prepend():向每个匹配的元素内部前置内容； after():在每个匹配的元素之后插入内容； before():在每个匹配的元素之前插入内容 删除节点 remove()方法，删除后该节点的所有后代节点将同时被删除，该方法删除后，还是可以继续使用的。 同时可以传递参数有选择性地删除元素。 detach()方法：与remove()方法不同的是被删除的元素所有绑定的事件，附加的数据等都会保留下来。 empty()方法：不是删除节点，而是清空节点。 复制节点 clone()方法:当传递参数true时，复制元素的同时复制元素中所绑定的事件，因此该元素的副本也同样具有复制功能。 替换节点 replaceWith()方法：$(“替换目标”).replaceWith(“替换内容”)]]></content>
   </entry>
   <entry>
     <title><![CDATA[如何把本地项目上传到github（最简单的方法）]]></title>
