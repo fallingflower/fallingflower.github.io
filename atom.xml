@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fallingflower.github.io/"/>
-  <updated>2018-08-14T09:35:43.104Z</updated>
+  <updated>2018-08-20T02:44:06.252Z</updated>
   <id>http://fallingflower.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>布局神器：display:flex;</title>
+    <link href="http://fallingflower.github.io/2018/08/20/%E5%B8%83%E5%B1%80%E7%A5%9E%E5%99%A8%EF%BC%9Adisplay-flex/"/>
+    <id>http://fallingflower.github.io/2018/08/20/布局神器：display-flex/</id>
+    <published>2018-08-20T02:28:52.000Z</published>
+    <updated>2018-08-20T02:44:06.252Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;/p&gt;&lt;h2&gt;容器&lt;/h2&gt;&lt;br&gt;设置为flex的容器称为Flex容器，其所有子元素自动成为容器成员，称为项目。&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h2&gt;容器属性&lt;/h2&gt;&lt;br&gt;其有6个属性：&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ul&gt;&lt;br&gt;   
+        
+      
+    
+    </summary>
+    
+      <category term="css" scheme="http://fallingflower.github.io/categories/css/"/>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
