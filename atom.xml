@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fallingflower.github.io/"/>
-  <updated>2018-08-20T02:44:06.252Z</updated>
+  <updated>2018-08-20T03:03:22.632Z</updated>
   <id>http://fallingflower.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>js的Array对象常用方法</title>
+    <link href="http://fallingflower.github.io/2018/08/20/js%E7%9A%84Array%E5%AF%B9%E8%B1%A1%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    <id>http://fallingflower.github.io/2018/08/20/js的Array对象常用方法/</id>
+    <published>2018-08-20T02:59:45.000Z</published>
+    <updated>2018-08-20T03:03:22.632Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Array对象常用方法中：&lt;br&gt;1、
+        
+      
+    
+    </summary>
+    
+      <category term="javaScript" scheme="http://fallingflower.github.io/categories/javaScript/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>布局神器：display:flex;</title>

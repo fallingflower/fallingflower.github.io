@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[js的Array对象常用方法]]></title>
+    <url>%2F2018%2F08%2F20%2Fjs%E7%9A%84Array%E5%AF%B9%E8%B1%A1%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[Array对象常用方法中：1、 concat() 连接两个或多个数组不改变原数组返回被连接数组的一个副本2、join()把数组中所有元素放入一个字符串不改变原数组返回字符串3、 slice()从已有的数组中返回选定的元素不改变原数组返回一个新数组4、 toString()把数组转为字符串不改变原数组返回数组的字符串形式改变原数组：5、 pop()删除数组最后一个元素，如果数组为空，则不改变数组，返回undefined改变原数组返回被删除的元素 6、 push() 向数组末尾添加一个或多个元素改变原数组返回新数组的长度7、 reverse()颠倒数组中元素的顺序改变原数组返回该数组8、 shift()把数组的第一个元素删除，若空数组，不进行任何操作，返回undefined改变原数组返回第一个元素的值9、 sort()对数组元素进行排序(ascii)改变原数组返回该数组10、 splice()从数组中添加/删除项目改变原数组返回被删除的元素11、 unshift()向数组的开头添加一个或多个元素改变原数组返回新数组的长度]]></content>
+      <categories>
+        <category>javaScript</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[布局神器：display:flex;]]></title>
     <url>%2F2018%2F08%2F20%2F%E5%B8%83%E5%B1%80%E7%A5%9E%E5%99%A8%EF%BC%9Adisplay-flex%2F</url>
     <content type="text"><![CDATA[容器设置为flex的容器称为Flex容器，其所有子元素自动成为容器成员，称为项目。 容器属性其有6个属性： flex-direction flex-wrap flex-flow justify-content align-item align-content flex-directionflex-direction属性：决定主轴的方向（即项目的排列方向）.box { flex-direction: row | row-reverse | column | column-reverse;} row（默认）：主轴水平方向，起点在左端； row-reverse：主轴水平方向，起点在右端； column：主轴垂直方向，起点在上边沿； column-reserve：主轴垂直方向，起点在下边沿 flex-wrapflex-wrap属性：定义换行情况默认情况下，项目都排列在一条轴线上，但有可能一条轴线排不下。.box{ flex-wrap: nowrap | wrap | wrap-reverse;}nowrap（默认）：不换行；wrap：换行，第一行在上方；wrap-reverse：换行，第一行在下方。 flex-flowflex-flow属性：flex-direction和flex-wrap的简写，默认row nowrap.box{ flex-flow: || ;} justify-contentjustify-content属性：定义项目在主轴上的对齐方式。对齐方式与轴的方向有关，本文中假设主轴从左到右。 .box { justify-content: start | end | flex-start | flex-end | center | left | right | space-between | space-around | space-evenly | stretch | safe | unsafe | baseline | first baseline | last baseline;}flex-start（默认值）：左对齐；flex-end：右对齐；center：居中；space-between：两端对齐，项目之间间隔相等；space-around：每个项目两侧的间隔相等，即项目之间的间隔比项目与边框的间隔大一倍。 align-itemsalign-items属性：定义在交叉轴上的对齐方式对齐方式与交叉轴的方向有关，假设交叉轴从下到上。 .box{ align-items: flex-start | flex-end | center | baseline | stretch;}flex-start：起点对齐；flex-end：终点对齐；center：中点对齐；baseline：项目的第一行文字的基线对齐；stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度. align-contentalign-content属性：定义多根轴线的对齐方式如果项目只有一根轴线，该属性不起作用。所以，容器必须设置flex-wrap：···； .box{ align-content: flex-start | flex-end | center | space-between | space-around | stretch;}]]></content>
