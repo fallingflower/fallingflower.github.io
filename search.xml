@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[复习阶段一]]></title>
-    <url>%2F2018%2F09%2F04%2F%E5%A4%8D%E4%B9%A0%E9%98%B6%E6%AE%B5%E4%B8%80%2F</url>
-    <content type="text"><![CDATA[仅以此博客记录自己接下来一个月的学习计划和实施情况，希望自己一个月内不断更。 计划 2018/09/04-2018/09/05: 上课牛客网刷题，每天打卡； 其他时间学习vue； 一天运动至少半小时。明天晚上验收！]]></content>
-      <tags>
-        <tag>记录</tag>
-      </tags>
+    <title><![CDATA[Vue学习记录一]]></title>
+    <url>%2F2018%2F09%2F04%2FVue%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E4%B8%80%2F</url>
+    <content type="text"></content>
   </entry>
   <entry>
     <title><![CDATA[js的Array对象常用方法]]></title>
