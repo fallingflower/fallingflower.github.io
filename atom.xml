@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fallingflower.github.io/"/>
-  <updated>2018-09-07T10:45:19.770Z</updated>
+  <updated>2018-09-08T14:34:05.112Z</updated>
   <id>http://fallingflower.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://fallingflower.github.io/2018/09/08/%E5%A4%8D%E4%B9%A0%E9%98%B6%E6%AE%B5%E4%B8%80/"/>
+    <id>http://fallingflower.github.io/2018/09/08/复习阶段一/</id>
+    <published>2018-09-08T14:34:05.112Z</published>
+    <updated>2018-09-08T14:34:05.112Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://fallingflower.github.io/2018/09/08/%E5%A4%A7%E5%AD%A6%E4%B8%89%E5%B9%B4%E6%9D%A5%E7%9A%84%E6%80%BB%E7%BB%93%E4%B8%8E%E6%84%9F%E6%82%9F%EF%BC%88%E6%B8%A3%E6%B8%A3%E7%AF%87%EF%BC%89/"/>
+    <id>http://fallingflower.github.io/2018/09/08/大学三年来的总结与感悟（渣渣篇）/</id>
+    <published>2018-09-08T14:34:04.973Z</published>
+    <updated>2018-09-08T14:34:04.973Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>无处宣泄的丧</title>
@@ -46,7 +74,7 @@
     <link href="http://fallingflower.github.io/2018/09/04/Vue%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E4%B8%80/"/>
     <id>http://fallingflower.github.io/2018/09/04/Vue学习记录一/</id>
     <published>2018-09-04T06:57:28.000Z</published>
-    <updated>2018-09-07T10:45:25.552Z</updated>
+    <updated>2018-09-08T14:34:05.049Z</updated>
     
     <summary type="html">
     
@@ -54,8 +82,7 @@
       
         
         
-          &lt;p&gt;v-bind指令：&lt;/p&gt;
-
+          &lt;p&gt;&lt;/p&gt;&lt;h2&gt;列表渲染&lt;/h2&gt;&lt;br&gt;对于已经创建的实例，Vue 不能动态添加根级别的响应式属性。但是，可以使用 Vue.set(object, key, value) 方法向嵌套对象添加响应式属性。&lt;br&gt;例如：&lt;br&gt;var vm = new Vue({&lt;br&gt; 
         
       
     
