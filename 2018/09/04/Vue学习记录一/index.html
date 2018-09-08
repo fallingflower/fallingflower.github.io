@@ -115,7 +115,7 @@
 <meta property="og:site_name" content="LZ成长史">
 <meta property="og:description" content="列表渲染对于已经创建的实例，Vue 不能动态添加根级别的响应式属性。但是，可以使用 Vue.set(object, key, value) 方法向嵌套对象添加响应式属性。例如：var vm = new Vue({  data: {    userProfile: {      name: ‘Anika’    }  }})vm.$set(vm.userProfile, ‘age’, 27)有时你可">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-09-08T15:03:29.223Z">
+<meta property="og:updated_time" content="2018-09-08T15:06:19.987Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Vue学习记录一">
 <meta name="twitter:description" content="列表渲染对于已经创建的实例，Vue 不能动态添加根级别的响应式属性。但是，可以使用 Vue.set(object, key, value) 方法向嵌套对象添加响应式属性。例如：var vm = new Vue({  data: {    userProfile: {      name: ‘Anika’    }  }})vm.$set(vm.userProfile, ‘age’, 27)有时你可">
@@ -400,7 +400,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-09-08 23:03:29" itemprop="dateModified" datetime="2018-09-08T23:03:29+08:00">2018-09-08</time>
+                <time title="修改时间：2018-09-08 23:06:19" itemprop="dateModified" datetime="2018-09-08T23:06:19+08:00">2018-09-08</time>
               
             
           </span>
@@ -468,9 +468,12 @@
   &lt;/ul&gt;
 &lt;/div&gt;
 </code></pre><p>var vm=new Vue({<br>  el: ‘#app’,<br>  data: {<br>    object:{<br>    age:’27’<br>    }<br>  }<br>})<br>vm.object=Object.assign({},vm.object,{<br>name:’lanzhen’,<br>sex:’nv’<br>})</p>
-<h3>显示过滤</h3><br>有时，我们想要显示一个数组的过滤或排序副本，而不实际改变或重置原始数据。在这种情况下，可以创建返回过滤或排序数组的计算属性。<br>例如：<br><br>  <div id="app"><br>    <ul><br>    <li v-for="numbers in eventnumber"></li><br><br>    </ul><br>  </div><br><br>var vm=new Vue({<br>  el: ‘#app’,<br>  data: {<br>    numbers:[5,1,2,3,4,6,8,4,20]<br>    },<br>    computed:{<br>        eventnumber:function(){<br>      return this.numbers.filter(function(number){<br>            return number % 2 === 0<br>    })<br>    }<br>    }<br>})<br><h3>一段取值范围的v-for</h3>
+<h3>显示过滤</h3><br>有时，我们想要显示一个数组的过滤或排序副本，而不实际改变或重置原始数据。在这种情况下，可以创建返回过滤或排序数组的计算属性。<br>例如：<br><br>      <div id="app"><br>        <ul><br>        <li v-for="numbers in eventnumber"></li><br><br>        </ul><br>      </div><br><br>var vm=new Vue({<br>  el: ‘#app’,<br>  data: {<br>    numbers:[5,1,2,3,4,6,8,4,20]<br>    },<br>    computed:{<br>        eventnumber:function(){<br>      return this.numbers.filter(function(number){<br>            return number % 2 === 0<br>    })<br>    }<br>    }<br>})<br><h3>一段取值范围的v-for</h3>
 
-<p>   <div><br>    <span v-for="n in 10"></span><br>  </div><br>//输出12345678910</p>
+<pre><code> &lt;div&gt;
+  &lt;span v-for=&quot;n in 10&quot;&gt;{{n}}&lt;/span&gt;
+&lt;/div&gt;
+</code></pre><p>//输出12345678910</p>
 <p></p><h3>v-for 在template标签上</h3><br>类似于 v-if，你也可以利用带有 v-for 的 template渲染多个元素<p></p>
 
       
@@ -585,7 +588,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">12</span>
+                    <span class="site-state-item-count">11</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -610,7 +613,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
