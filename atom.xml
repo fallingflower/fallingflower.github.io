@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fallingflower.github.io/"/>
-  <updated>2018-09-08T15:08:46.090Z</updated>
+  <updated>2018-09-12T03:04:00.042Z</updated>
   <id>http://fallingflower.github.io/</id>
   
   <author>
@@ -15,6 +15,92 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端面试记录</title>
+    <link href="http://fallingflower.github.io/2018/09/10/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95/"/>
+    <id>http://fallingflower.github.io/2018/09/10/前端面试记录/</id>
+    <published>2018-09-10T11:50:59.000Z</published>
+    <updated>2018-09-12T03:04:00.042Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;/p&gt;&lt;h2&gt;网易游戏前端实习生&lt;/h2&gt;&lt;br&gt;一面是9月10号晚上七点的电话面，总体感觉就是小哥哥声音很好听，问的问题很基础但很细，听不懂问题的时候总会耐心解释和引导。最后问小哥哥对我本次的表现有什么建议时，小哥哥想了下说要多学习下英语，可能是被我撇脚的英语发音震惊了
+        
+      
+    
+    </summary>
+    
+      <category term="前端面试" scheme="http://fallingflower.github.io/categories/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>算法总结</title>
+    <link href="http://fallingflower.github.io/2018/09/10/%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/"/>
+    <id>http://fallingflower.github.io/2018/09/10/算法总结/</id>
+    <published>2018-09-10T06:00:44.000Z</published>
+    <updated>2018-09-10T06:00:44.824Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>剑指offer总结</title>
+    <link href="http://fallingflower.github.io/2018/09/10/%E5%89%91%E6%8C%87offer%E6%80%BB%E7%BB%93/"/>
+    <id>http://fallingflower.github.io/2018/09/10/剑指offer总结/</id>
+    <published>2018-09-10T02:20:05.000Z</published>
+    <updated>2018-09-12T03:04:51.122Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;/p&gt;&lt;h2&gt;剑指offer4-重建二叉树&lt;/h2&gt;&lt;br&gt;&lt;strong&gt;题目描述&lt;/strong&gt;&lt;br&gt;输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。例如输入前序遍历序列{1,2,4,7,3,5,6,
+        
+      
+    
+    </summary>
+    
+      <category term="算法" scheme="http://fallingflower.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Javascript知识点总结</title>
+    <link href="http://fallingflower.github.io/2018/09/09/Javascript%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/"/>
+    <id>http://fallingflower.github.io/2018/09/09/Javascript知识点总结/</id>
+    <published>2018-09-09T03:08:26.000Z</published>
+    <updated>2018-09-12T03:04:51.037Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2&gt;JSON&lt;/h2&gt;&lt;br&gt;JSON的语法可以表示三种基本类型：简单值、对象、数组；&lt;br&gt;&lt;h3&gt;对象&lt;/h3&gt;&lt;br&gt;JSON字符串必须使用双引号；&lt;br&gt;与JavaScript对象字面量区别：没有声明变量，没有末尾的分号，对象属性必须加双引号；&lt;br&gt;{&lt;br&gt;  
+        
+      
+    
+    </summary>
+    
+      <category term="javascript" scheme="http://fallingflower.github.io/categories/javascript/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>图解HTTP读书笔记</title>
